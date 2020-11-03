@@ -1,0 +1,7 @@
+output_dir: docs
+book_filename: "uas_field_guide"
+delete_merged_file: true
+language:
+  ui:
+    chapter_name: "Chapter "
+rmd_files: ["index.Rmd", "mission-planning.Rmd", "flight-ops.Rmd", "equipment.Rmd", "data-management.Rmd", "campaign-planning.Rmd"]

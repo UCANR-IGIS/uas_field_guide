@@ -1,0 +1,36 @@
+bookdown::gitbook:
+  lib_dir: libs
+  number_sections: True
+  split_by: rmd
+  css: style.css
+  includes:
+    in_header: gtag.html
+  config:
+    toc:
+      scroll_highlight: yes
+      before: |
+        <li><a href="./" style="font-weight:bold;">Drone Mapping Field Guide</a></li>
+      after: |
+        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with Bookdown</a></li>
+    download: ["pdf", "epub"]
+
+# before_body: common/page_header.html
+# after_body: common/page_footer.html
+# collapse: subsection | section | none
+#      after: | <li><a href="http://igis.ucanr.edu/" target="_blank">IGIS </a></li>
+
+
+bookdown::pdf_book:
+  includes:
+    in_header: preamble.tex
+  latex_engine: xelatex
+  citation_package: natbib
+  keep_tex: yes
+  
+bookdown::epub_book: default
+
+
+#bookdown::epub_book:
+#  dev: svglite
+#  number_sections: False
+    

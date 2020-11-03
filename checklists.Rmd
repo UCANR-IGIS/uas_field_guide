@@ -1,0 +1,3 @@
+# Checklists {#checklists}
+
+Checklists are widely used when humans have to operate complex technology systems, from aircraft to . Checklists break down a large number of requirements into manageable, discrete pieces.  
